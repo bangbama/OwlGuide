@@ -1,4 +1,4 @@
-# OwlGuide (Owl Guide) - Developer Handover Guide
+# OwlGuide
 ## 1. Project Vision & Core Features
 **One-Sentence Definition**: OwlGuide is an intelligent macOS assistant powered by Gemini’s multimodal vision capabilities, designed to automate complex cross-app interactive tasks through a closed loop of **“screen perception → intent understanding → action simulation”**.
 
