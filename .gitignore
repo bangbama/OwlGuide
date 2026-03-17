@@ -1,0 +1,55 @@
+# 通用机密文件（优先级最高）
+.env                # 所有环境变量配置文件
+.env.local          # 本地环境变量
+.env.*              # 所有以.env开头的文件（排除.env.example等示例文件可单独写规则）
+!.env.example       # 例外：保留.env.example（可选）
+
+# Python 相关
+__pycache__/        # Python 编译后的缓存目录
+*.py[cod]           # Python 编译生成的字节码文件
+*$py.class          # Python 2 字节码文件
+*.so                # 编译后的扩展库
+.Python             # virtualenv 相关
+env/                # 虚拟环境目录
+build/              # 构建目录
+develop-eggs/       # setuptools 相关
+dist/               # 打包后的分发目录
+downloads/          # 下载目录
+eggs/               # egg 文件目录
+.eggs/              # egg 缓存目录
+lib/                # 库目录（虚拟环境）
+lib64/              # 64位库目录
+parts/              # setuptools 部件
+sdist/              # 源码分发目录
+var/                # 变量目录
+wheels/             # wheel 包目录
+*.egg-info/         # egg 信息目录
+.installed.cfg      # 安装配置文件
+*.egg               # egg 包文件
+pip-wheel-metadata/ # pip 轮子元数据
+
+# Swift 相关
+build/              # Swift 构建目录
+DerivedData/        # Xcode 生成的衍生数据
+*.pbxuser           # Xcode 用户配置
+!default.pbxuser
+*.mode1v3           # Xcode 模式配置
+!default.mode1v3
+*.mode2v3           # Xcode 模式配置
+!default.mode2v3
+*.perspectivev3     # Xcode 视角配置
+!default.perspectivev3
+xcuserdata/         # Xcode 用户数据
+*.xccheckout        # Xcode 检出配置
+*.moved-aside       # Xcode 移动文件
+DerivedData/        # Xcode 衍生数据
+*.hmap              # 头文件映射
+*.ipa               # iOS 安装包
+*.dSYM.zip          # 调试符号压缩包
+*.dSYM              # 调试符号文件
+
+# 通用忽略
+.DS_Store           # macOS 系统文件
+Thumbs.db           # Windows 系统文件
+*.log               # 日志文件（可选）
+tmp/                # 临时目录
