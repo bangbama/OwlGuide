@@ -1,0 +1,896 @@
+{
+  "source": "/Users/mf-mac/Code/codex/OwlGuide/Views/ControlPanelView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Owl Guide",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phase 1 Debug Panel",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "The app shell is running. The scanner now reads the captured external target window with a limited AXChildren depth, derives a filtered useful-elements list, and ranks local candidates for actionability and readability.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Owl Guide needs these macOS permissions before it can inspect another app and capture the current window image.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Permissions",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Attention needed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Accessibility",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Accessibility Settings",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Screen Recording Settings",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Screen Recording",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh Permissions",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Frontmost App",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh Current Frontmost",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is what macOS reports as frontmost right now. If Owl Guide is active, this section may correctly show Owl Guide itself.",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hide current-frontmost details",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show current-frontmost details",
+        "location": {
+          "startingColumn": 102,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "This cached non-OwlGuide target is what Owl Guide should preserve for later scanning.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "Captured External Target",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh External Target",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 202
+        }
+      },
+      {
+        "comment": "",
+        "key": "This scans AXChildren recursively from the captured external window with a limited depth and node cap.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 257
+        }
+      },
+      {
+        "comment": "",
+        "key": "Some descendant child lookups failed during traversal: %lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "No overlay guidance items are currently available.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 325
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan Results Mode",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "Captured Window Child Scan",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan Captured Window Children",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 252
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hide Overlay Preview",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Overlay Preview",
+        "location": {
+          "startingColumn": 97,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hide Window Anchor",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Window Anchor",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Overlay Guidance Strip",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 303
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shown overlay items stay listed here in rank order. Click a row to sync the detail pane.",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 306
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type a keyword to surface the matching debug fields here without scrolling through the whole panel.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 620
+        }
+      },
+      {
+        "comment": "",
+        "key": "No matching debug fields for “%@”.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 625
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search runtime, signing, permission, URL, parser...",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 616
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug Quick Find",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 603
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 609
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a row from any scan view to inspect its details.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 711
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected from: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 679
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected Element Detail",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 666
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear Selection",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 672
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reason tags",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 703
+        }
+      },
+      {
+        "comment": "",
+        "key": "Watch First",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 723
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gemini Setup",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 812
+        }
+      },
+      {
+        "comment": "",
+        "key": "Before Owl Guide can describe the current screen, it needs a few permissions and setup items ready.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 816
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh Readiness",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 822
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Accessibility Settings",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 827
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Screen Recording Settings",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 834
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Screen Recording",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 838
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh External Target",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 845
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gemini API Key",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 859
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current key source: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 885
+        }
+      },
+      {
+        "comment": "",
+        "key": "A Gemini API key is saved locally. Clear Saved Key before entering a different one.",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 890
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter Gemini API key",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 864
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 867
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Key",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 874
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear Saved Key",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 879
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gemini Model",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 897
+        }
+      },
+      {
+        "comment": "",
+        "key": "Owl Guide uses a fixed Gemini model for the MVP screen-understanding path.",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 903
+        }
+      },
+      {
+        "comment": "",
+        "key": "Readiness",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 909
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show readiness and setup details",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 921
+        }
+      },
+      {
+        "comment": "",
+        "key": "Readiness details",
+        "location": {
+          "startingColumn": 88,
+          "startingLine": 921
+        }
+      },
+      {
+        "comment": "",
+        "key": "Granted",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 965
+        }
+      },
+      {
+        "comment": "",
+        "key": "Missing",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 965
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analysis Debug Preview",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 989
+        }
+      },
+      {
+        "comment": "",
+        "key": "Browser-aware capture",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1025
+        }
+      },
+      {
+        "comment": "",
+        "key": "Screenshot details",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1066
+        }
+      },
+      {
+        "comment": "",
+        "key": "Payload and complexity diagnostics",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Raw Response",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 1121
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy Request Summary",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 1125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Response diagnostics",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Raw request and response text",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Advanced app and permission debug",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Verification Snapshot",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use this compact view to judge whether the current analysis basically passed.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gemini Screen Understanding",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1279
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analyze Current Screen",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1294
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug View",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1303
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug View",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 1309
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analysis is unavailable: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1323
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analysis Target",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analysis Progress",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1352
+        }
+      },
+      {
+        "comment": "",
+        "key": "While Owl Guide is still working",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1371
+        }
+      },
+      {
+        "comment": "",
+        "key": "Routing Summary",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1389
+        }
+      },
+      {
+        "comment": "",
+        "key": "First Response",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1433
+        }
+      },
+      {
+        "comment": "",
+        "key": "Page type: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 1447
+        }
+      },
+      {
+        "comment": "",
+        "key": "Host: %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 1452
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confidence: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 1457
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recommended Targets",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1487
+        }
+      },
+      {
+        "comment": "",
+        "key": "Caution Notes",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1498
+        }
+      },
+      {
+        "comment": "",
+        "key": "• %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 1503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Result at a Glance",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1526
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is Owl Guide's current best read of the screen and how grounded that read is locally.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1529
+        }
+      },
+      {
+        "comment": "",
+        "key": "Intent Confirmation",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1586
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirmed",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 1630
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tentative",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 1630
+        }
+      },
+      {
+        "comment": "",
+        "key": "Local element id: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1758
+        }
+      },
+      {
+        "comment": "",
+        "key": "Visual-only suggestion",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1769
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shown in current overlay",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 1765
+        }
+      },
+      {
+        "comment": "",
+        "key": "Inspect and Show in Overlay",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 1765
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1724
+        }
+      },
+      {
+        "comment": "",
+        "key": "Likely",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1942
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirmed",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1948
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tentative",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1952
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 2013
+        }
+      },
+      {
+        "comment": "",
+        "key": "Missing",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 2013
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 2044
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 2140
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ | %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 2129
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ | %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 2189
+        }
+      }
+    ]
+  },
+  "version": 1
+}

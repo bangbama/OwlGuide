@@ -1,0 +1,37 @@
+{
+  "context": "The user is on a medical portal page with a search area and account actions.",
+  "likely_task": "Find the next safe action on this page.",
+  "safe_first_step": "Look for the sign in or account button near the top of the page.",
+  "confirmation_question": "Would you like me to keep guiding you one step at a time?",
+  "action_plan": [
+    {
+      "type": "highlight",
+      "target": "Sign In",
+      "text": "Highlight the sign in button so the user can find it.",
+      "requires_confirmation": false
+    },
+    {
+      "type": "speak",
+      "target": "user",
+      "text": "Please click the sign in button near the top of the page.",
+      "requires_confirmation": false
+    }
+  ],
+  "guide_card": {
+    "title": "Find the sign in area",
+    "body": "This page looks like a medical portal home or landing page.",
+    "tone": "info",
+    "primary_action": "Look for the sign in or account button near the top."
+  },
+  "target_info": {
+    "kind": "button",
+    "label": "Sign In",
+    "rect": null,
+    "accessibility_label": "Sign In"
+  },
+  "meta": {
+    "confidence": 0.88,
+    "risk_level": "low",
+    "estimated_steps": 2
+  }
+}

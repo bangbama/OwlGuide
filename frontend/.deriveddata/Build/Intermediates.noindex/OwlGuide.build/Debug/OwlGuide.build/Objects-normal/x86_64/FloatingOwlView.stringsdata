@@ -1,0 +1,64 @@
+{
+  "source": "/Users/mf-mac/Code/codex/OwlGuide/Views/FloatingOwlView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Open Owl Guide",
+        "location": {
+          "startingColumn": 15,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "🦉",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "You can also leave this blank. I will look at the current screen in about %lld seconds.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "For example: help me sign in, or what does this page mean?",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "What would you like help with?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close prompt",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Help me look at this screen",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 88
+        }
+      }
+    ]
+  },
+  "version": 1
+}

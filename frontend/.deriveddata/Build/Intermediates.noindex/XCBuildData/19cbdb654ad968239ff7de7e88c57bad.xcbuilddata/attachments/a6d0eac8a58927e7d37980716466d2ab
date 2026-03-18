@@ -1,0 +1,219 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuide-primary.dia",
+    "emit-module-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuide-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuide-primary-emit-module.dia",
+    "pch" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuide-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuide-primary.swiftdeps"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/App/AppDelegate.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/App/AppViewModel.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AppViewModel~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/App/OwlGuideApp.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuideApp~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Models/AXElementNode.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXElementNode~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Models/OwlGuidePresentationCopy.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/OwlGuidePresentationCopy~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Models/ScenarioGuidance.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioGuidance~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Models/ScreenUnderstanding.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScreenUnderstanding~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/AXCandidateRanker.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXCandidateRanker~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/AXResultNormalizer.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AXResultNormalizer~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/AccessibilityScanner.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/AccessibilityScanner~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/BrowserContextCaptureService.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/BrowserContextCaptureService~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/FrontmostAppDetector.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FrontmostAppDetector~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/GeminiAPIKeyStore.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiAPIKeyStore~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/GeminiScreenUnderstandingService.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/GeminiScreenUnderstandingService~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/PermissionManager.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/PermissionManager~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/ScenarioSkillRouter.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ScenarioSkillRouter~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Services/WindowScreenshotService.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/WindowScreenshotService~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Views/ControlPanelView.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/ControlPanelView~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Views/FloatingOwlView.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingOwlView~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Windows/FloatingPanelController.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/FloatingPanelController~partial.swiftmodule"
+  },
+  "/Users/mf-mac/Code/codex/OwlGuide/Windows/InspectorWindowController.swift" : {
+    "const-values" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.swiftconstvalues",
+    "dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.d",
+    "diagnostics" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.dia",
+    "index-unit-output-path" : "/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.o",
+    "llvm-bc" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.bc",
+    "object" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.o",
+    "swift-dependencies" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController.swiftdeps",
+    "swiftmodule" : "/Users/mf-mac/Code/codex/.deriveddata/Build/Intermediates.noindex/OwlGuide.build/Debug/OwlGuide.build/Objects-normal/x86_64/InspectorWindowController~partial.swiftmodule"
+  }
+}

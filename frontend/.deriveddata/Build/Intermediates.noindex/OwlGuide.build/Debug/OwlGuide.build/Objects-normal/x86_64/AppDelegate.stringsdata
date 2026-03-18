@@ -1,0 +1,24 @@
+{
+  "source": "/Users/mf-mac/Code/codex/OwlGuide/App/AppDelegate.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 664
+        }
+      },
+      {
+        "comment": "",
+        "key": "Step %lld of %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 742
+        }
+      }
+    ]
+  },
+  "version": 1
+}
