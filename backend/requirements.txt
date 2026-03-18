@@ -4,3 +4,5 @@ pydantic>=2.8.0
 google-genai>=1.0.0
 google-cloud-firestore>=2.17.0
 python-dotenv>=1.0.0
+slowapi>=0.1.9
+limits>=3.12.0

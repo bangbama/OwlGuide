@@ -18,7 +18,7 @@
                BlueprintIdentifier = "A50000010000000000000001"
                BuildableName = "OwlGuide2.app"
                BlueprintName = "OwlGuide2"
-               ReferencedContainer = "container:OwlGuide2.xcodeproj">
+               ReferencedContainer = "container:OwlGuide.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "A50000010000000000000001"
             BuildableName = "OwlGuide2.app"
             BlueprintName = "OwlGuide2"
-            ReferencedContainer = "container:OwlGuide2.xcodeproj">
+            ReferencedContainer = "container:OwlGuide.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "A50000010000000000000001"
             BuildableName = "OwlGuide2.app"
             BlueprintName = "OwlGuide2"
-            ReferencedContainer = "container:OwlGuide2.xcodeproj">
+            ReferencedContainer = "container:OwlGuide.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

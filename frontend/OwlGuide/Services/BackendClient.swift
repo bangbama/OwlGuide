@@ -107,6 +107,9 @@ struct BackendClient {
         let signature = sha256("\(timestamp)\(apiSignSecret)")
         request.setValue(timestamp, forHTTPHeaderField: "X-Sign-Timestamp")
         request.setValue(signature, forHTTPHeaderField: "X-Sign")
+        
+        // 添加设备唯一标识头，用于后端限流
+        request.setValue(AppSettings.shared.anonymousDeviceIdentifier, forHTTPHeaderField: "X-Device-ID")
     }
 
     private func execute<Value: Decodable>(_ request: URLRequest, as type: Value.Type) async throws -> BackendHTTPResponse<Value> {

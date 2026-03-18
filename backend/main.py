@@ -10,11 +10,15 @@ import uuid
 from typing import Any, Optional
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, Request, HTTPException
 from google import genai
 from google.cloud import firestore
 from google.genai import types
 from pydantic import BaseModel
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+from starlette.status import HTTP_429_TOO_MANY_REQUESTS
 
 # changed_in_version: 2026-03-15-1930
 
@@ -31,6 +35,33 @@ PREVIOUS_VERSION = "2026-03-15-1904"
 
 # Initialize FastAPI app
 app = FastAPI(title="Owl Guide Backend", version=f"0.4.0-{VERSION_TAG}")
+
+# ---------- 限流配置 ----------
+# 限流key生成函数：IP + 设备ID
+def get_ip_and_device_id(request: Request):
+    ip = get_remote_address(request)
+    device_id = request.headers.get("X-Device-ID", "unknown_device")
+    return f"{ip}:{device_id}"
+
+# 初始化限流器（内存存储，多实例部署可切换为Redis）
+limiter = Limiter(key_func=get_ip_and_device_id)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+# 自定义限流错误响应
+@app.exception_handler(RateLimitExceeded)
+async def custom_rate_limit_handler(request: Request, exc: RateLimitExceeded):
+    retry_after = exc.detail.split(" ")[-1] if exc.detail else "60"
+    raise HTTPException(
+        status_code=HTTP_429_TOO_MANY_REQUESTS,
+        detail={
+            "code": 429,
+            "message": "Too many requests. Please try again later.",
+            "description": "Free limit: 10 requests per minute, 50 requests per day. You can use your own Gemini API Key for unlimited usage.",
+            "retry_after": retry_after
+        },
+        headers={"Retry-After": retry_after}
+    )
 
 # Gemini configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -953,52 +984,54 @@ async def health():
 
 
 @app.post("/analyze-screen", response_model=AnalyzeScreenResponse)
-async def analyze_screen(request: AnalyzeScreenRequest):
-    image_bytes, _, screenshot_status = decode_screenshot(request)
-    log_request_diagnostics(request, screenshot_status, len(image_bytes or b""))
+@limiter.limit("10/minute")
+@limiter.limit("50/day")
+async def analyze_screen(request: Request, analyze_request: AnalyzeScreenRequest):
+    image_bytes, _, screenshot_status = decode_screenshot(analyze_request)
+    log_request_diagnostics(analyze_request, screenshot_status, len(image_bytes or b""))
     response_source = "mock"
 
     try:
         await write_event(
-            request.session_id,
+            analyze_request.session_id,
             "analyze_requested",
             {
-                "user_goal": request.user_goal,
-                "app_name": request.app_name,
-                "window_title": request.window_title,
+                "user_goal": analyze_request.user_goal,
+                "app_name": analyze_request.app_name,
+                "window_title": analyze_request.window_title,
                 "screenshot_status": screenshot_status,
             },
         )
         await write_session(
-            request.session_id,
-            request.user_goal,
-            request.app_name,
-            request.window_title,
+            analyze_request.session_id,
+            analyze_request.user_goal,
+            analyze_request.app_name,
+            analyze_request.window_title,
         )
     except Exception as exc:
         logger.error("Failed to write pre-request Firestore data: %s", exc)
 
     if USE_MOCK_ONLY:
         logger.info("Using mock mode (forced by OWLGUIDE_USE_MOCK_ONLY)")
-        response = get_mock_response(request, reason="forced_mock_mode")
+        response = get_mock_response(analyze_request, reason="forced_mock_mode")
         response_source = "mock"
     elif gemini_client:
-        gemini_response = await call_gemini(request)
+        gemini_response = await call_gemini(analyze_request)
         if gemini_response:
             logger.info("Successfully got response from Gemini")
             response = gemini_response
             response_source = "gemini"
         else:
             fallback_reason = "gemini_failed_text_only" if screenshot_status != "ok" else "gemini_failed"
-            response = get_mock_response(request, reason=fallback_reason)
+            response = get_mock_response(analyze_request, reason=fallback_reason)
             response_source = "mock"
     else:
-        response = get_mock_response(request, reason="gemini_unavailable")
+        response = get_mock_response(analyze_request, reason="gemini_unavailable")
         response_source = "mock"
 
     try:
         await write_event(
-            request.session_id,
+            analyze_request.session_id,
             "analyze_completed",
             {
                 "result_status": "success",
