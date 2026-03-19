@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide" */;
+			buildConfigurationList = A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide2" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide" */ = {
+		A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60000010000000000000003 /* Debug */,
