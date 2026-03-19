@@ -55,7 +55,7 @@
 		A20000010000000000000006 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
 		A20000010000000000000007 /* FloatingPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelController.swift; sourceTree = "<group>"; };
 		A20000010000000000000008 /* InspectorWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorWindowController.swift; sourceTree = "<group>"; };
-		A20000010000000000000009 /* OwlGuide2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlGuide2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000010000000000000009 /* OwlGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20000010000000000000010 /* FrontmostAppDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontmostAppDetector.swift; sourceTree = "<group>"; };
 		A20000010000000000000011 /* AXElementNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXElementNode.swift; sourceTree = "<group>"; };
 		A20000010000000000000012 /* AccessibilityScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityScanner.swift; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 		A20000010000000000000036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D21141E02F67C2E20064C146 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 		D21DF15F2F6A6F85002AF3C0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		D25EB98E2F6852E800EA0099 /* OwlGuide2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OwlGuide2-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +102,6 @@
 		A40000010000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				D25EB98E2F6852E800EA0099 /* OwlGuide2-Info.plist */,
 				A40000010000000000000002 /* OwlGuide */,
 				D21DF15E2F6A6F85002AF3C0 /* Frameworks */,
 				A40000010000000000000006 /* Products */,
@@ -169,7 +167,7 @@
 		A40000010000000000000006 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A20000010000000000000009 /* OwlGuide2.app */,
+				A20000010000000000000009 /* OwlGuide.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A50000010000000000000001 /* OwlGuide2 */ = {
+		A50000010000000000000001 /* OwlGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A60000010000000000000002 /* Build configuration list for PBXNativeTarget "OwlGuide2" */;
+			buildConfigurationList = A60000010000000000000002 /* Build configuration list for PBXNativeTarget "OwlGuide" */;
 			buildPhases = (
 				A30000010000000000000002 /* Sources */,
 				A30000010000000000000001 /* Frameworks */,
@@ -232,9 +230,9 @@
 			);
 			dependencies = (
 			);
-			name = OwlGuide2;
+			name = OwlGuide;
 			productName = OwlGuide;
-			productReference = A20000010000000000000009 /* OwlGuide2.app */;
+			productReference = A20000010000000000000009 /* OwlGuide.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide2" */;
+			buildConfigurationList = A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -266,7 +264,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A50000010000000000000001 /* OwlGuide2 */,
+				A50000010000000000000001 /* OwlGuide */,
 			);
 		};
 /* End PBXProject section */
@@ -439,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				AUTOMATION_APPLE_EVENTS = NO;
-				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -447,14 +445,14 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = S2K5RTNNR7;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
 				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
 				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
 				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "OwlGuide2-Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Owl Guide ";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone permission is required to record your voice input";
@@ -487,7 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				AUTOMATION_APPLE_EVENTS = NO;
-				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_ALLOWED = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -502,7 +500,7 @@
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "OwlGuide2-Info.plist";
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = "Owl Guide ";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone permission is required to record your voice input";
@@ -533,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide2" */ = {
+		A60000010000000000000001 /* Build configuration list for PBXProject "OwlGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60000010000000000000003 /* Debug */,
@@ -542,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A60000010000000000000002 /* Build configuration list for PBXNativeTarget "OwlGuide2" */ = {
+		A60000010000000000000002 /* Build configuration list for PBXNativeTarget "OwlGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60000010000000000000005 /* Debug */,

@@ -60,7 +60,7 @@ final class AppSettings: ObservableObject {
         }
         
         // 使用IOKit获取Mac设备硬件UUID，无需用户授权
-        let masterPort: mach_port_t = kIOMasterPortDefault
+        let masterPort: mach_port_t = kIOMainPortDefault
         let matchingDict = IOServiceMatching("IOPlatformExpertDevice")
         let platformExpert = IOServiceGetMatchingService(masterPort, matchingDict)
         
