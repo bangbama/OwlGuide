@@ -57,10 +57,10 @@ OwlGuide is designed for:
 ### Main UI
 ![Main UI](assets/screenshots/main-ui.jpg)
 
-### Help Popup
+### Setting - Autopilot
 ![Help Popup](assets/screenshots/settings-autopilot.jpg)
 
-### Settings
+### Settings - Permissions
 ![Settings](assets/screenshots/settings-permissions.jpg)
 
 ### Demo
